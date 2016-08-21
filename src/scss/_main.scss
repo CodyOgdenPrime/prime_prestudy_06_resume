@@ -1,0 +1,54 @@
+main {
+	padding: 0 0 4em 0;
+}
+
+main > article {
+	margin: 4em 0;
+}
+
+main > article:first-of-type {
+	margin-top: 0;
+}
+
+main > article:last-of-type {
+	margin-bottom: 0;
+}
+
+.positions {
+	margin: .75em 0;
+	border: 1px solid $border-color;
+}
+
+.position-container {
+	padding: 1.5em 1.5em;
+	background-color: #FFF;
+}
+
+.positions .position-container:not(:last-of-type) {
+	border-bottom: 1px solid $border-color;
+}
+
+.position-container small {
+	float: right;
+}
+
+@media screen and ( max-width: 500px ) {
+	main {
+		box-sizing: border-box;
+		padding: 4em 1em;
+	}
+	.position-container small {
+		display: block;
+		float: none;
+	}
+}
+
+.position-time {
+	font-style: italic;
+	font-size: .8em;
+}
+
+.position-container p {
+	font-size: .9em;
+	text-align: justify;
+}

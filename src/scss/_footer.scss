@@ -1,0 +1,23 @@
+footer {
+	color: #F7F7F7;
+	width: 100%;
+	background-color: #333;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	font-family: 'Shadows Into Light', cursive;
+	background-image: url('bg-footer.svg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 2em 0;
+}
+
+footer span {
+	transform: rotate(-3deg);
+}
+
+footer .fa-heart {
+	color: #F44336;
+}
